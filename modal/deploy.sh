@@ -1,0 +1,1 @@
+modal deploy App.py
