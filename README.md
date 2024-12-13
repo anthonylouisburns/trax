@@ -70,3 +70,6 @@ you can than push changes if needed
 > cd modal
 > modal deploy App.py
 
+<!-- TODO add notes on starting next.js server -->
+<!-- TODO add notes on starting convex app -->
+<!-- TODO make everything configurable for dealstart -->
