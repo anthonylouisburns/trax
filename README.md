@@ -38,3 +38,35 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 <!-- TODO #4 update look tailwind formatting -->
 <!-- TODO #5 build dynamic form -->
+
+
+## Modal and python
+
+### first time
+Install pyenv -  https://github.com/pyenv/pyenv-virtualenv 
+> brew install pyenv-virtualenv
+
+set up virtualenv
+> pyenv virtualenv 3.13.0 modal-python-3
+
+### everytime
+activate pyenv 
+> pyenv virtualenv 3.13.0 modal-python-3
+
+install requirements
+> pip install --upgrade pip
+
+> pip install -r requirements.txt
+
+save requirements
+> pip freeze > requirements.txt
+
+login to modal dashboard and get an API Token https://modal.com/settings/dealstart/tokens
+
+will prompt you to set your modal configs
+> modal token set --token-id ? --token-secret ? --profile=dealstart
+
+you can than push changes if needed 
+> cd modal
+> modal deploy App.py
+

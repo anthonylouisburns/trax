@@ -14,6 +14,6 @@ The main configuration options are the API tokens: the token id and the token se
 1. By running the modal token set command. This writes the tokens to .modal.toml file in your home directory.
 2. By setting the environment variables MODAL_TOKEN_ID and MODAL_TOKEN_SECRET. This takes precedence over the previous method.
 
+cat ~/.modal.toml 
 modal token set --token-id - --token-secret - --profile=dealstart
 modal profile activate dealstart
-modal profile activate anthonylouisburns
